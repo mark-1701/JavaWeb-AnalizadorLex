@@ -12,7 +12,7 @@ S=[\:, ,\=,\+,\-,\*,\/,\&,\>,\|,\!,\%,\(,\),\[,\],\;,\,,\.]+
 %}
 %%
 {espacio} {/*Ignore*/}
-( "//"(.)* ) {/*Ignore*/}
+( "--"(.)*"--" ) {/*Ignore*/}
 ( "\n" ) {return Linea;}
 ( "\"" ) {lexeme=yytext(); return Comillas;}
 //PAQUETE
