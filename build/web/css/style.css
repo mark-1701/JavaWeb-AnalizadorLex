@@ -146,6 +146,7 @@ header {
 .content-phrase {    
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     width: 100%;
     padding: 60px 130px;
     box-sizing: border-box;

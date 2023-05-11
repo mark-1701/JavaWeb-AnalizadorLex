@@ -89,7 +89,7 @@
         <form action="play.jsp" method="POST" class="main">
             <div class="boxes">
 
-                <textarea id="contenido-archivo" name="cajaEntrada" style="tab-size: 4; text-indent: 4ch;"><%out.print(cajaEntrada);%></textarea>
+                <textarea id="contenido-archivo" name="cajaEntrada"><%out.print(cajaEntrada);%></textarea>
                 <textarea><%out.print(resultado);%></textarea>
 
                 <!--<textarea id="contenido-archivo" class="box"></textarea>
